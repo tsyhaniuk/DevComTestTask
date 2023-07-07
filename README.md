@@ -57,6 +57,10 @@ To run the tests through the IDE's test runner:
 1. Open the feature file containing the test scenarios.
 2. Right-click on the feature file and select "Run" or "Run As" > "Cucumber Feature" (depending on your IDE).
 
+To run tests through the command promt
+1. Open the command prompt and cd until the project root directory.
+2. Run the following command in the command prompt: mvn test
+
 ## Reporting
 
 DevComTestTask framework generates test reports in HTML format. After running the tests, you can find the reports in the `target/cucumber-reports` directory. Open the HTML file to view the detailed test results and statistics.
